@@ -38,4 +38,6 @@ MIT
 Author Information
 ------------------
 
-Chris Short <cshort@redhat.com>
+Chris Short  
+<cshort@redhat.com>  
+[https://ansible.com]
