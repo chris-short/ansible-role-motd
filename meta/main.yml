@@ -40,12 +40,18 @@ galaxy_info:
     versions:
       - all
   #   - 25
-  - name: RedHat
+  - name: EL
     versions:
       - all
   #   - 1.0
   #   - 7
   #   - 99.99
+  - name: Debian
+    versions:
+      - all
+  - name: Ubuntu
+    versions:
+      - all
 
   galaxy_tags:
     - system
