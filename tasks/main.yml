@@ -1,4 +1,14 @@
 ---
-- template:
+- name: Save the STATE
+  copy:
+    dest: /root/motd.{{ ansible_date_time.date }}
+    src: /etc/motd
+    owner: root
+    group: root
+    mode: 0644
+    remote_src: true
+
+- name: Deploy Fresh MOTD
+  template:
     src: motd.j2
     dest: /etc/motd
