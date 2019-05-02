@@ -1,4 +1,4 @@
-Role Name
+MOTD
 =========
 
 A bare minimum level of system knowledge needed troubleshooting a never before logged into system
