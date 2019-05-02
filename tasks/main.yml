@@ -1,7 +1,7 @@
 ---
 - name: Save the STATE
   copy:
-    dest: /root/motd.{{ ansible_date_time.date }}
+    dest: /root/motd.{{ ansible_date_time.iso8601_micro }}
     src: /etc/motd
     owner: root
     group: root
