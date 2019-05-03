@@ -39,5 +39,5 @@ Author Information
 ------------------
 
 Chris Short  
-<cshort@redhat.com>  
-[https://ansible.com]
+cshort@redhat.com  
+https://ansible.com
